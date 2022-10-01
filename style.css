@@ -99,14 +99,12 @@
                 margin: 0;
             }
             #ad1 {
-                background: url(images/children-bg.jpg);
-                background-size: 100%;
+                background: #f1f1f1;
                 padding: 50px;
             }
 
             #ad2 {
-                background: url(images/laugh-bg.jpg);
-                background-size: 100%;
+                background: #182b4c;
                 padding: 50px;
             }
                 .ad-section {
@@ -115,13 +113,13 @@
                 }
                     .text {
                       color: #182b4c;
-                      font-size: 30px;
+                      font-size: 50px;
                       text-align: center;
-                      padding: 30px;
+                      padding: 25% 50px 50px 50px;
                     }
                     .image {
-                        width: 30%;
-                        padding: 0 35%;
+                        width: 50%;
+                        padding: 0 25% 25% 25%;
                         margin: 0 auto;
                         overflow: hidden;
                     }
@@ -133,7 +131,7 @@
                             color: #f1f1f1;
                             font-size: 30px;
                             text-align: center;
-                            padding: 0 30px 30px 30px;
+                            padding: 25% 30px 30px 30px;
                         }
         footer {
             color: black;
