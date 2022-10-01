@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+    #container {
+        background: #f1f1f1;
+        width: 100%;
+        margin: 0 auto;
+        font-family: Arial, Helvetica, sans-serif;
+        /*height: 2400px;*/
+    }
+    .clearfix {
+        clear: both;
+    }
+
+        header {
+            background: #f1f1f1;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+        }
+            #logo {
+                padding: 40px 60px;
+                float: left;
+                /*width: 1000px;*/
+            }
+                #logo img {
+                    width: 300px;
+                }
+            #login {
+                width: 250px;
+                background: #182b4c;
+                margin: 50px;
+                padding: 20px 10px;
+                color: #f1f1f1;
+                font-size: 35px;
+                border-radius: 25px;
+                text-align: center;
+                text-transform: uppercase;
+                font-family: Arial, Helvetica, sans-serif;
+                float: right;
+            }
+        main {}
+            #slider {
+                width: 100%;
+                margin: 0;
+                /*background: #182b4c;*/
+                background: url(images/bg-slider.jpg);
+                background-size: 100%;
+            }
+                h2 {
+                    color: #f1f1f1;
+                    text-align: center;
+                    font-weight: bolder;
+                    font-size: 80px;
+                    padding-top: 100px;
+                }
+                #slider p{
+                    color: #fdbe4a;
+                    text-align: center;
+                    padding: 20px;
+                    font-size: 30px;
+                }
+                #slider img {
+                    display: block;
+                    align-content: center;
+                    margin: 0 auto;
+                    padding: 0 0 40px 0;
+                    width: 150px;
+                    position: center;
+                }
+                a {
+                    text-decoration: none;
+                }
+                #signup {
+                    background: #fdbe4a;
+                    width: 60%;
+                    margin: 0 auto;
+                    padding: 15px;
+                    border-radius: 30px;
+                    text-align: center;
+                    font-size: 40px;
+                    color: #f1f1f1;
+                }
+                #free {
+                    margin: 30px auto 0 auto;
+                    padding-bottom: 50px;
+                    font-size: 30px;
+                    font-weight: bold;
+                    text-align: center;
+                    text-transform: uppercase;
+                    color: #f1f1f1;
+                }
+            #yellowbar {
+                background: #fdbe4a;
+                width: 100%;
+                height: 10px;
+                margin: 0;
+            }
+            #ad1 {
+                background: url(images/children-bg.jpg);
+                background-size: 100%;
+                padding: 50px;
+            }
+
+            #ad2 {
+                background: url(images/laugh-bg.jpg);
+                background-size: 100%;
+                padding: 50px;
+            }
+                .ad-section {
+                    width: 50%;
+                    margin: 0 auto 0px auto;
+                }
+                    .text {
+                      color: #182b4c;
+                      font-size: 30px;
+                      text-align: center;
+                      padding: 30px;
+                    }
+                    .image {
+                        width: 30%;
+                        padding: 0 35%;
+                        margin: 0 auto;
+                        overflow: hidden;
+                    }
+                        .image img {
+                            display: block;
+                            margin: 0 auto;
+                        }
+                        .text2 {
+                            color: #f1f1f1;
+                            font-size: 30px;
+                            text-align: center;
+                            padding: 0 30px 30px 30px;
+                        }
+        footer {
+            color: black;
+        }
+            footer ul {
+                padding: 0 30%;
+            }
+                footer ul li {
+                    float: left;
+                    margin: 0 auto;
+                    padding: 30px;
+                    text-align: center;
+                    font-size: 30px;
+                    list-style: none;
+                }
+            #copy {
+                text-align: center;
+                font-size: 100%;
+                padding: 0 0 35px 0;
+            }
